@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>My first website</title>
+
+    <!--adding meta tags let us tell a web browser informations about the website such as a brief descriptions, keywords, and author-->
+    <!--we can set the viewport for  mobile devices and also set a refresh rate-->
+    <!--refresh rate is set by seconds so the number represent how many seconds before the webpage automatically refresh-->
+    <meta charset="UTF-8">
+    <meta name="description" content="Free HTML tutorial for beginners">
+    <meta name="keywords" content="HTML, tutorial, beginners">
+    <meta name="author" content="Bolz">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiz="refresh" content="30">
+
+</head>
+<body>
+
+    <!--This is a comment--> 
+    <!--h: heading -->
+    <!--hr: horizontal rule-->
+    <!--br: line break-->
+    <h1>My first website</h1>
+    <hr>
+    <h1>I LIKE PIZZA!</h1>
+    <br>
+    <h2>I LIKE PIZZA!</h2>
+    <br>
+    <h3>I LIKE PIZZA!</h3>
+    <br>
+    <h4>I LIKE PIZZA!</h4>
+    <br>
+    <h5>I LIKE PIZZA!</h5>
+    <br>
+    <h6>I LIKE PIZZA!</h6>
+    
+    <!--p: paragraph-->
+    <!--browsers automatically add spacing around paragraphs-->
+    <!--type Lorem ipsum to generate placeholder text-->
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+    <!--a: anchor-->
+    <a href="https://www.google.com" target="_blank" title="This takes you to Google">
+        Google
+    </a>
+    <br>
+    <br>
+    <a href="https://www.google.com" target="_self" title="This takes you to Google">
+        Google
+    </a>
+    <br>
+    <!--when the file is next to each other, instead of using a full URL, you can just type the file name-->
+    <br>
+    <a href="page2.html" target="_self" title="This takes you to Page 2">
+        Go to page 2
+    </a>
+    <br>
+    <br>
+    <a href="mailto:example@example.com" target="_self" title="Send an email">
+        Email Me!
+    </a>
+    <br>
+    <br>
+    <a href="https://kungfupanda.fandom.com/wiki/Po">
+    <img src="images/po.png" height="200" alt="This is a picture of Po" title="Po the Dragon Warrior"> 
+    </a>
+    
+    <p>This is a normal text</p>
+    <p>This is a <b>bold</b> text</p>
+    <p>This is a <i>italic</i> text</p>
+    <p>This is a <big>big</big> text</p>
+    <p>This is a <small>small</small> text</p>
+    <p>This is a <sub>subscript</sub> text</p>
+    <p>This is a <sup>superscript</sup> text</p>
+    <p>This is a <ins>inserted</ins> text</p>
+    <p>This is a <del>deleted</del> text</p>
+    <p>This is a <mark>highlighted</mark> text</p>
+    <p>This is a <strong>strong</strong> text</p>
+    <p>This is a <em>emphasized</em> text</p>
+    <p>This is a <s>strikethrough</s> text</p>
+    <p>This is a <u>underlined</u> text</p>
+    <br>
+    
+    <!--ul: unordered list-->
+    <h4>Unordered list</h4>
+    <ul>
+        <li>pizza dough</li>
+        <li>tomato sauce</li>
+        <li>cheese</li>
+        <li>toppings
+            <ul>
+                <li>pepperoni</li>
+                <li>mushrooms</li>
+                <li>olives</li>
+            </ul>
+        </li>
+    </ul>
+
+    <!--ol: ordered list-->
+    <!--ol type="1", "A", "a", "I", "i"-->
+    <h4>Ordered list</h4>
+     <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+    <ol type="A">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+    <ol type="a">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+    <ol type="I">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+    <ol type="i">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+   
+    <!--dt: description term-->
+    <!--dd: description definition-->
+    <h4>Description list</h4>
+    <dl>
+        <dt>HTML</dt>
+        <dd>This adds structure to a website</dd>
+        <dt>CSS</dt>
+        <dd>This adds style to a website</dd>
+        <dt>JavaScript</dt>
+        <dd>This adds interactivity to a website</dd>
+    </dl>
+
+    <h3>Store Hours(Table)</h3>
+    
+    <!--tr: table row-->
+    <!--th: table header-->
+    <!--td: table data-->
+    <!--table header are inherently bold-->
+    <!--bgcolor: table row background color-->
+    <table bgcolor="black" width="700">
+        <tr bgcolor="grey">
+            <th width="100">Sunday</th>
+            <th width="100">Monday</th>
+            <th width="100">Tuesday</th>
+            <th width="100">Wednesday</th>
+            <th width="100">Thursday</th>
+            <th width="100">Friday</th>
+            <th width="100">Saturday</th>
+        </tr>
+        <tr bgcolor="lightgray" align="center">
+            <td>10:00 AM - 8:00 PM</td>
+            <td>9:00 AM - 9:00 PM</td>
+            <td>9:00 AM - 9:00 PM</td>
+            <td>9:00 AM - 9:00 PM</td>
+            <td>9:00 AM - 9:00 PM</td>
+            <td>9:00 AM - 10:00 PM</td>
+            <td>10:00 AM - 6:00 PM</td>
+        </tr>
+    </table>
+
+    <!--span = adds markup to text or portion of document-->
+    <!--div = defines a division or section in an HTML document-->
+    <div style="background-color: #444444;">
+    <p>
+        <span style="color: red;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span> Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+    </div>
+
+    <!--iframe = embed content from another source into an HTML document. ex. used for ads, used in many hacking techniques-->
+    <!--this commonly doesn't work with most of major websites because it means you pose as that website-->
+    <!--when people who're mistaken you for that website type in their info, you'll be able to see those info-->
+    <iframe src="https://www.wikipedia.org/" width="750" height="250">
+    
+
+
+    <!--Note: press ctrl+S to save-->
+    <!--Note: press Tab to accept suggestions-->
+    <!--Note: press Esc to cancel-->
+    <!--Note: press Enter to confirm-->
+    <!--Note: press Ctrl+Shift+P to open the command palette-->
+    
+</body>
+
+</html>
