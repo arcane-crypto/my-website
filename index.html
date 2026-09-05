@@ -64,6 +64,13 @@
     </a>
     <br>
     <br>
+    
+    <!--The height and the width will scale proportionally with each other but you can change them individually-->
+    <!--alt: alternative text for the image-->
+    <!--if the image cannot be displayed, the alt text will be shown-->
+    <!--if somebody has a visual impairment and uses a screen reader, the alt text will be read out loud-->
+    <!--title: text that appears when you hover over the image-->
+    <!--You can set a hyperlink to an image-->
     <a href="https://kungfupanda.fandom.com/wiki/Po">
     <img src="images/po.png" height="200" alt="This is a picture of Po" title="Po the Dragon Warrior"> 
     </a>
@@ -183,9 +190,53 @@
     <!--iframe = embed content from another source into an HTML document. ex. used for ads, used in many hacking techniques-->
     <!--this commonly doesn't work with most of major websites because it means you pose as that website-->
     <!--when people who're mistaken you for that website type in their info, you'll be able to see those info-->
-    <iframe src="https://www.wikipedia.org/" width="750" height="250">
+    <iframe src="https://www.wikipedia.org/" width="750" height="250"></iframe>
+
+    <br>
+    <br>
+    <!--Button can be used to trigger actions, like being a hyperlink or performing a script action-->
+    <!--The appearance of a button can be customized using CSS-->
+    <a href="https://www.google.com">
+        <button style="background-color: #333333; color: white;border-radius: 5px;">Click Me</button>
+    </a>
+    <br>
+    <br>
+    <!--button can trigger JavaScript-->
+    <button onclick="doSomething()">click me</button>
+
+    <p id="test">Hello!</p>
+
+    <script>
+        function doSomething() {
+            document.getElementById("test").innerHTML = "Goodbye!";
+        }
+    </script>
+
+    <form>
+        <label for="fname">Name:</label>
+        <input type="text" id="fname" name="fname" placeholder="Jakpar">
+
+        <label for="lname">Name:</label>
+        <input type="text" id="lname" name="lname" placeholder="Tonggek">
+    <!--this label and input elements will appear on the same line-->
+    <!--to separate them and treat them as block-level elements, add each of these pairs their own <div> elements-->
+    <!--div = defines a division or section in an HTML document-->
+    <!--or just use <br> tags-->
+    
+        <div>
+            <label for="Age">Age:</label>
+            <input type="text" id="Age" name="Age" placeholder="67">
+        </div>
     
 
+        <div>
+            <input type="reset">
+        </div>
+
+        <div>
+            <input type="submit">
+        </div>
+    </form>
 
     <!--Note: press ctrl+S to save-->
     <!--Note: press Tab to accept suggestions-->
